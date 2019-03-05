@@ -1,0 +1,11 @@
+.__text-input {
+	display:block;
+	margin: 8px auto;
+	border: 1px solid #bbb;
+	color: #555;
+	outline: 0;
+	padding: 6px;
+	min-width: 200px;
+	border-radius: 4px;
+	font-size: 1.1em;
+}
