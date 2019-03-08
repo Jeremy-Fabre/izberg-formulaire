@@ -1,12 +1,12 @@
 import React from 'react'
 import TextInput from '../text-input'
-import {strengthIndicator, lengthEnough} from './strength'
+import {strengthIndicator, strengthColor} from './strength'
 
 import './styles.css'
 
 export default function PasswordInput(props) {
-	//const strength = strengthIndicator(props.value)
-	const enough = lengthEnough(props.value)
+	const strength = strengthIndicator(props.value)
+	const color = strengthColor(strength)
 	return (
 		<TextInput
 			type="password"
@@ -15,7 +15,7 @@ export default function PasswordInput(props) {
 			placeholder={props.placeholder}
 			handleChange={props.handleChange}
 			style={{
-				border: `1px solid ${enough}`
+				border: `1px solid ${color}`
 			}}
 		/>
 	)

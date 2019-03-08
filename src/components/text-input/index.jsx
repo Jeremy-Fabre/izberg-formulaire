@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types';
 
 import './styles.css'
 
@@ -8,19 +7,10 @@ export default function TextInput(props) {
 		<input
 			type={props.type}
 			value={props.value}
-			className="__text-input"
+			className={`__text-input ${props.className}`}
 			placeholder={props.placeholder}
 			onChange={props.handleChange}
 			style={props.style}
 		/>
 	)
-}
-
-TextInput.propTypes = {
-	type: PropTypes.string,
-	value: PropTypes.string
-}
-
-TextInput.defaultProps = {
-	type: 'text'
-}
+} 

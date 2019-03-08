@@ -1,13 +1,14 @@
 import React from 'react'
 import TextInput from '../text-input'
-import {strengthIndicator, strengthColor} from './matched'
 
 import './styles.css'
 
 export default function RetypePasswordInput(props) {
-	const strength = strengthIndicator(props.value)
-	const color = strengthColor(strength)
-	console.log(color);
+	const matchedColor = value => {
+		if(value.password !== value.retypePassword) return 'red'
+		if(value.password === value.retypePassword && value.retypePassword !== '') return 'green'
+		if(value.retypePassword === '') return '#bbb'
+	}
 	return (
 		<TextInput
 			type="password"
@@ -16,7 +17,7 @@ export default function RetypePasswordInput(props) {
 			placeholder={props.placeholder}
 			handleChange={props.handleChange}
 			style={{
-				border: `1px solid ${color}`
+				border: `1px solid ${matchedColor(props)}`
 			}}
 		/>
 	)
