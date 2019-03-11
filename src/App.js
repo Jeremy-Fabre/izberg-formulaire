@@ -26,12 +26,6 @@ class App extends React.Component{
 	}
 
 	handleSubmit(event) {
-		/*if (this.state.password === this.state.retypePassword && this.state.retypePassword !== '' && strengthIndicator(this.state.password) > 3 && this.state.username !== '') {
-			alert('Welcome ' + this.state.username + ' !');
-			ReactDOM.render(<Welcome />, document.getElementById('root'));
-		}else{
-			alert('Password is unvalid or password re-typed not match password !');
-		}*/
 		let password = this.state.password;
 		let retypePassword = this.state.retypePassword;
 		let username = this.state.username;
