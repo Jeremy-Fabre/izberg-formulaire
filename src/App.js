@@ -1,5 +1,5 @@
 import React from 'react';
-import { createStore } from 'redux'
+import { createStore } from 'redux';
 import UsernameInput from './components/username-input';
 import PasswordInput from './components/password-input';
 import {strengthIndicator} from './components/password-input/strength';
@@ -43,8 +43,8 @@ class App extends React.Component{
 			  }
 		}
 
-		let store = createStore(validationPassword)
-		alert (store.getState())
+		let store = createStore(validationPassword);
+		alert (store.getState());
 		event.preventDefault();
 
 	}
