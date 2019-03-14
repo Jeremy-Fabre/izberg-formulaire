@@ -1,13 +1,13 @@
 {
-  "main.css": "/Jeremy-Fabre/izberg-formulaire/static/css/main.fdde1878.chunk.css",
-  "main.js": "/Jeremy-Fabre/izberg-formulaire/static/js/main.10ac782e.chunk.js",
-  "main.js.map": "/Jeremy-Fabre/izberg-formulaire/static/js/main.10ac782e.chunk.js.map",
-  "runtime~main.js": "/Jeremy-Fabre/izberg-formulaire/static/js/runtime~main.33effdd4.js",
-  "runtime~main.js.map": "/Jeremy-Fabre/izberg-formulaire/static/js/runtime~main.33effdd4.js.map",
-  "static/js/2.8fee606b.chunk.js": "/Jeremy-Fabre/izberg-formulaire/static/js/2.8fee606b.chunk.js",
-  "static/js/2.8fee606b.chunk.js.map": "/Jeremy-Fabre/izberg-formulaire/static/js/2.8fee606b.chunk.js.map",
-  "index.html": "/Jeremy-Fabre/izberg-formulaire/index.html",
-  "precache-manifest.dff5746899751af41b2fc9af95717579.js": "/Jeremy-Fabre/izberg-formulaire/precache-manifest.dff5746899751af41b2fc9af95717579.js",
-  "service-worker.js": "/Jeremy-Fabre/izberg-formulaire/service-worker.js",
-  "static/css/main.fdde1878.chunk.css.map": "/Jeremy-Fabre/izberg-formulaire/static/css/main.fdde1878.chunk.css.map"
+  "main.css": "/Jeremy-Fabre/react-formulaire/static/css/main.fdde1878.chunk.css",
+  "main.js": "/Jeremy-Fabre/react-formulaire/static/js/main.f69afd6b.chunk.js",
+  "main.js.map": "/Jeremy-Fabre/react-formulaire/static/js/main.f69afd6b.chunk.js.map",
+  "runtime~main.js": "/Jeremy-Fabre/react-formulaire/static/js/runtime~main.43e1cfae.js",
+  "runtime~main.js.map": "/Jeremy-Fabre/react-formulaire/static/js/runtime~main.43e1cfae.js.map",
+  "static/js/2.8fee606b.chunk.js": "/Jeremy-Fabre/react-formulaire/static/js/2.8fee606b.chunk.js",
+  "static/js/2.8fee606b.chunk.js.map": "/Jeremy-Fabre/react-formulaire/static/js/2.8fee606b.chunk.js.map",
+  "index.html": "/Jeremy-Fabre/react-formulaire/index.html",
+  "precache-manifest.1da376787b2daecd1558dca3a22a9ef2.js": "/Jeremy-Fabre/react-formulaire/precache-manifest.1da376787b2daecd1558dca3a22a9ef2.js",
+  "service-worker.js": "/Jeremy-Fabre/react-formulaire/service-worker.js",
+  "static/css/main.fdde1878.chunk.css.map": "/Jeremy-Fabre/react-formulaire/static/css/main.fdde1878.chunk.css.map"
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Jeremy-Fabre/izberg-formulaire/precache-manifest.dff5746899751af41b2fc9af95717579.js"
+  "/Jeremy-Fabre/react-formulaire/precache-manifest.1da376787b2daecd1558dca3a22a9ef2.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Jeremy-Fabre/izberg-formulaire/index.html", {
+workbox.routing.registerNavigationRoute("/Jeremy-Fabre/react-formulaire/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
