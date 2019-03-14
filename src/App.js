@@ -53,8 +53,8 @@ class App extends React.Component{
 		return (
 			<div id="container">
 				<div id="block-form">
-					<img src="img/logo-Izberg.png" alt="logo-Izberg"/>
-					<h2>Join us at Izberg !</h2>
+					<img src="img/React.js_logo.png" alt="logo-React"/>
+					<h2>Join us !</h2>
 					<form
 						action=''
 						method='get'
